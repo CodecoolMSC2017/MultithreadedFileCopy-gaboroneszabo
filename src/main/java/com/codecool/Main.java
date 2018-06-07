@@ -1,11 +1,12 @@
 package com.codecool;
 
+import com.codecool.gui.MainFrame;
+
 import java.io.*;
-import java.util.Date;
 
 public class Main {
 
     public static void main(String[] args) throws IOException {
-        Gui gui = new Gui();
+        MainFrame mf = new MainFrame(800, 600);
     }
 }
